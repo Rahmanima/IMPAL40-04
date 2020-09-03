@@ -32,6 +32,5 @@
 **Melakukan trigger terhadap “order-page” :**
 
 -	Buka terminal pada direktori “trigger-order-page”
--	Jalankan trigger dengan menuliskan perintah :
-`go run send_trigger_category.go`
+-	Jalankan trigger dengan menuliskan perintah : `go run send_trigger_category.go`
 - Apabila trigger berhasil dilakukan, maka akan tampil request body yang dikirimkan ke API Gateway dan responnya akan dikirimkan ke RabbitMQ dengan nama queue "polling-order-unit"
